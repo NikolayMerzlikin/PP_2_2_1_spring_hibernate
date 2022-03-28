@@ -30,7 +30,7 @@ public class MainApp {
             System.out.println("Car = " + user.getCar().toString());
             System.out.println();
         }
-        User user = userService.getUserByCarModelAndSeries("Toyota",3);
+        User user = userService.getUserByCarModelAndSeries("Toyota", 3);
         System.out.println(user);
 
 
